@@ -1,0 +1,24 @@
+Git >> Version controller
+
+from code folder in my local machine open cmd and enter the below command to configure git hub in my local system
+git config --global user.name "test123"
+git config --global user.email "test123@gmail.com"
+
+
+git config --global color.ui auto
+
+mandatory commands
+git init
+git remote add origin "github url of our repo"
+
+git remote add origin https://github.com/wajidzid/Web_development.git
+
+git pull origin main
+git status
+git commit -m " commit message"
+git push
+git push --set-upstream origin main
+
+--separate branch : NewBranch
+create a new branch
+git checkout -b "branchname"
